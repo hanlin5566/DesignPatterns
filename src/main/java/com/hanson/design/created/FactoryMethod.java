@@ -1,50 +1,45 @@
 package com.hanson.design.created;
 
 /**
- * Created by Hanson on 2019/5/27 16:44
- * 工厂模式
- * 主要解决接口选择的问题,通过标识选择要创建的具体对象.
+ * Created by Hanson on 2020/2/2 1:12
+ * 与简单工厂相比,FactoryMethod工厂方法可以扩展新的产品,而不需要修改 简单工厂类的代码.符合开闭原则.
+ * 相当于工厂方法,不再是一个类,而是一个接口.可以通过实现此接口扩展工厂类.
+ *
+ * 可以相对容易的扩展一个产品族,但扩展产品需要修改代码.
  */
 public class FactoryMethod {
-
     public static void main(String[] args) {
-        MobileFactory mobileFactory = new MobileFactory();
-        MobilePhone mobile = mobileFactory.getMobile("huawei");
+        MobileFactoryMethod mobileFactoryMethod = new OppoMobileFactory();
+        MobilePhone mobile = mobileFactoryMethod.getMobile();
         mobile.logo();
     }
 }
-
-interface MobilePhone{
-    public void logo();
+//工厂接口
+interface MobileFactoryMethod{
+    public MobilePhone getMobile();
 }
 
-class HuaWeiMobilePhone implements MobilePhone{
-
+class XiaoMiMobileFactory implements MobileFactoryMethod{
     @Override
-    public void logo() {
-        System.out.println("华为logo");
+    public MobilePhone getMobile() {
+        return new XiaoMiMobilePhone();
     }
 }
 
-class XiaoMiMobilePhone implements MobilePhone{
-
+class HuaWeiMobileFactory implements MobileFactoryMethod{
     @Override
-    public void logo() {
-        System.out.println("小米logo");
+    public MobilePhone getMobile() {
+        return new HuaWeiMobilePhone();
     }
 }
 
-class MobileFactory{
-    public MobilePhone getMobile(String provide){
-        switch (provide){
-            case "xiaomi":
-                return new XiaoMiMobilePhone();
-            case "huawei":
-                return new HuaWeiMobilePhone();
-            default:
-                throw new IllegalStateException("Unexpected value: " + provide);
-        }
-
-
+/**
+ * 相对容易的扩展一个产品族
+ */
+class OppoMobileFactory implements MobileFactoryMethod{
+    @Override
+    public MobilePhone getMobile() {
+        return new OppoMobilePhone();
     }
 }
+

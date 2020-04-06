@@ -7,7 +7,8 @@ package com.hanson.design.struct;
  * 主要解决：在有多种可能会变化的情况下，用继承会造成类爆炸问题，桥接模式可以取代多层继承的方式，多使用组合而非继承的形式。
  * 实际项目中可能应用的场景
  * 桥接模式实际开发中应用场景
- * -JDBC驱动程序（API与Driver分离)
+ *  特别好的例子
+ * -JDBC驱动程序（API与Driver分离) API持有一个driver的引用,(API相当于是行为),Driver相当于是抽象.
  *    ・API分类:CURD
  *    ・距离分类：Mysql，Oracle，SQLServer,h2，impala
  * -银行日志管理：
@@ -39,6 +40,8 @@ package com.hanson.design.struct;
  *          -- huawei
  *
  * 如果此时新增了一种产品比如watch或者新增了一个小米品牌都会导致类膨胀，现在就使用桥接模式解决此问题。
+ *
+ *
  *
  */
 public class Bridge {
