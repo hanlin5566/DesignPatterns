@@ -71,9 +71,6 @@ abstract class AbstractCommand implements ICommand{
         }
         return this.call();
     }
-    @Override
-    public void undo() {
-    }
 }
 
 class ConcreteCommand extends AbstractCommand implements ICommand{
@@ -86,7 +83,13 @@ class ConcreteCommand extends AbstractCommand implements ICommand{
 
     @Override
     public boolean call() throws Exception {
+        System.out.println(rec.getSql()+"执行");
         return true;
+    }
+
+    @Override
+    public void undo() {
+        System.out.println(this.rec.getSql()+"执行撤销");
     }
 }
 
