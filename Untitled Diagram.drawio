@@ -1,22 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T09:39:30.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="CraYBTsOZ7J4y_RRN3QT" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T13:00:25.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="UBc220F4HpiovOHtU6mL" version="14.2.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3220" dy="2370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="2370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-11" value="H5" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="80" width="100" height="640" as="geometry" />
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-99" value="client" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="100" height="2000" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-11">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-100" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-99">
           <mxGeometry x="45" y="70" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-13" value="tuitui" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="80" width="100" height="640" as="geometry" />
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-99">
+          <mxGeometry x="45" y="270" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-13">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-99">
+          <mxGeometry x="45" y="900" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-103" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="175" y="495" width="10" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-104" value="tuitui" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="100" height="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-105" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-104">
           <mxGeometry x="45" y="80" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-15" value="1.判断绑定状态&lt;br&gt;2.判断步骤状态(" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="9an_gNBY0MOmyQ4hXC5S-13">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-106" value="1.判断绑定状态(ChanceBindEnum)&lt;br&gt;2.判断步骤状态(clientStatusEnum)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="9an_gNBY0MOmyQ4hXC5S-104">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="150" as="sourcePoint" />
             <Array as="points">
@@ -25,23 +34,39 @@
             <mxPoint x="55" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-16" value="NOT_BIND&amp;NOT_AUTH" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.8;exitY=0.964;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-14" target="9an_gNBY0MOmyQ4hXC5S-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="236" as="targetPoint" />
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-104">
+          <mxGeometry x="45" y="270" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-104">
+          <mxGeometry x="45" y="510" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-104">
+          <mxGeometry x="45" y="910" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-110" value="&lt;pre&gt;/authorization/confirm+&lt;b&gt;&lt;font color=&quot;#4d9900&quot;&gt;currentUser&lt;/font&gt;&lt;/b&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;entryX=0.43;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="9an_gNBY0MOmyQ4hXC5S-104" target="9an_gNBY0MOmyQ4hXC5S-113">
+          <mxGeometry x="-0.0173" y="-21" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="920" as="sourcePoint" />
+            <mxPoint x="140" y="920" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-17" value="/step/101+token:{BKJK,u1}" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-12" target="9an_gNBY0MOmyQ4hXC5S-14">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-111" value="NOT_BIND&amp;NOT_AUTH" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.8;exitY=0.964;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-105" target="9an_gNBY0MOmyQ4hXC5S-100">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="160" as="sourcePoint" />
+            <mxPoint x="285" y="246" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-18" value="cirus" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="100" height="640" as="geometry" />
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-112" value="/step/101+token:{BKJK,u1}" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-100" target="9an_gNBY0MOmyQ4hXC5S-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="170" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-18">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-113" value="cirus" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="90" width="100" height="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-113">
           <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-20" value="机会绑定人员信息&lt;br&gt;根据clue_id查询user_info&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="9an_gNBY0MOmyQ4hXC5S-18">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-115" value="机会绑定人员信息&lt;br&gt;根据clue_id查询user_info&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="9an_gNBY0MOmyQ4hXC5S-113">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="102" as="sourcePoint" />
             <Array as="points">
@@ -50,52 +75,271 @@
             <mxPoint x="55" y="122" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-21" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="80" width="20" height="480" as="geometry" />
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-113">
+          <mxGeometry x="45" y="632" width="10" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-21">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-117" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-113">
+          <mxGeometry x="45" y="910" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-118" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="20" height="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-119" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-118">
           <mxGeometry x="5" y="70" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-23" value="家家支付去完成待办" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-21" target="9an_gNBY0MOmyQ4hXC5S-12">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-120" value="获取理房通实名地址" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="9an_gNBY0MOmyQ4hXC5S-118">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="10" y="280" as="sourcePoint" />
+            <mxPoint x="140" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-121" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-118">
+          <mxGeometry x="5" y="280" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-122" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-118">
+          <mxGeometry x="5" y="890" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-123" value="家家支付去完成待办" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-118" target="9an_gNBY0MOmyQ4hXC5S-100">
           <mxGeometry x="0.2819" y="-20" relative="1" as="geometry">
-            <mxPoint x="105" y="150" as="sourcePoint" />
+            <mxPoint x="115" y="160" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="120" y="150" />
+              <mxPoint x="130" y="160" />
             </Array>
             <mxPoint x="-20" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-24" value="LFT" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="80" width="100" height="640" as="geometry" />
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-124" value="NUUS" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="90" width="100" height="2030" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-24">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-124">
+          <mxGeometry x="45" y="340" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-26" value="queryBindInfo/101" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-14">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-126" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-124">
+          <mxGeometry x="45" y="420" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-124">
+          <mxGeometry x="45" y="580" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-128" value="queryBindInfo/101" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.7;exitY=0.091;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-105" target="9an_gNBY0MOmyQ4hXC5S-113">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="200" as="sourcePoint" />
-            <mxPoint x="531" y="170" as="targetPoint" />
+            <mxPoint x="250" y="210" as="sourcePoint" />
+            <mxPoint x="541" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="180" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-27" value="&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;queryBindInfo&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;SELECT ui.uus_user_id, ui.uus_union_id,ui.temporary_user_id, &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;cc.clue_id, cc.biz_no, cc.process_status, cc.sub_process_status, &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;cc.live_status,cc.type as chanceType, cc.service_no as service_order_no &lt;br style=&quot;font-size: 1px&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;FROM user_clue_chance cc &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;LEFT JOIN user_clue uc ON cc.clue_id = uc.id &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;LEFT JOIN user_info ui ON uc.user_info_id = ui.id &lt;br style=&quot;font-size: 1px&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;WHERE cc.clue_id = #{clueId}&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="-140" width="550" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-28" value="user_info&amp;user_clue_chance" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-14">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-129" value="user_info&amp;user_clue_chance" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-105">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="210" as="targetPoint" />
-            <mxPoint x="533" y="208" as="sourcePoint" />
+            <mxPoint x="360" y="220" as="targetPoint" />
+            <mxPoint x="576" y="216" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-29" value="&lt;pre style=&quot;background-color: #131314 ; color: #ebebeb ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff&quot;&gt;ChanceBindStatusEnum&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_BIND(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未被绑定&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;DIFFERENT_IDENTITY(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;预留证件号与实名证件号不一致&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ALREADY_BIND_SELF(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;机会单已被自己绑定过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ALREADY_BIND_OTHERS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;机会单已被他人绑定过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;BIND_FAILED(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;绑定失败&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;请联系顾问&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;BIND_SUCCESS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;认证通过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;绑定机会单成功&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;BIND_FAILED_ERROR_VERIFICATION_CODE(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;绑定失败&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;验证码错误&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_AUTH(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未实名&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_OPEN_ACCOUNT(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未开户&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ALREADY_BIND_OWNER(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;已绑定主借人&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-790" width="520" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-30" value="&lt;pre style=&quot;background-color: #131314 ; color: #ebebeb ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff&quot;&gt;ClientStatusEnum&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOTHING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;无&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_MOBILE_VALIDATE(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;机会单电话未验证&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_AUTH(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未实名&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_OPEN_ACCOUNT(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未开户&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;AUTH_PENDING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;待授权&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;AUDITING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;审核中&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;PRE_AUDIT_PASS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;预审批通过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ADVISOR_PROCESS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;金融顾问处理中&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ORDER_TERMINATION(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;订单终止&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;SIGN_PENDING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;待签约&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;SIGNED(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;已签约&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;SUBSEQUENT(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;金融单后续流程&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;AUTH_OVERDUE(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;授权过期，待重新授权&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;PAY(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;去支付&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;REFUNDED(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;已退款&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="230" width="350" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="9an_gNBY0MOmyQ4hXC5S-31" value="去实名" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-21">
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-130" value="去实名" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-118">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="280" as="sourcePoint" />
-            <mxPoint x="80" y="280" as="targetPoint" />
+            <mxPoint x="170" y="290" as="sourcePoint" />
+            <mxPoint x="90" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-131" value="LFT" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="100" height="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-132" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9an_gNBY0MOmyQ4hXC5S-131">
+          <mxGeometry x="45" y="410" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-133" value="/prepare/101+token:{BKJK:u1}" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-104">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="390" as="sourcePoint" />
+            <mxPoint x="260" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-134" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="356" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-135" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="575" y="356" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-136" value="机会绑定人员信息&lt;br&gt;根据clue_id查询user_info&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="378" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="605" y="378" />
+            </Array>
+            <mxPoint x="585" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-137" value="/chance/{chanceId}/reserved-info" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.46;entryY=0.144;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="396" as="sourcePoint" />
+            <mxPoint x="576" y="368.15999999999985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-138" value="user_info" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=0.2;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.45;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="406" as="targetPoint" />
+            <mxPoint x="575" y="402.7199999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-139" value="/nuus/user/cache-user-record 推送顾客预留信息" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="440" as="sourcePoint" />
+            <mxPoint x="575" y="439.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-140" value="/v3/auth/prepare 理房通实名地址" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.45;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="450" as="targetPoint" />
+            <mxPoint x="355" y="450.7399999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-141" value="理房通实名地址" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.45;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="466" as="targetPoint" />
+            <mxPoint x="175" y="466.7399999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-142" value="理房通实名" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0.1;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-143" value="实名信息 BKJK u1 un1" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-144" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-126" target="9an_gNBY0MOmyQ4hXC5S-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-145" value="&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;queryBindInfo&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;SELECT ui.uus_user_id, ui.uus_union_id,ui.temporary_user_id, &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;cc.clue_id, cc.biz_no, cc.process_status, cc.sub_process_status, &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;cc.live_status,cc.type as chanceType, cc.service_no as service_order_no &lt;br style=&quot;font-size: 1px&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;FROM user_clue_chance cc &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;LEFT JOIN user_clue uc ON cc.clue_id = uc.id &lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 1px&quot;&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;LEFT JOIN user_info ui ON uc.user_info_id = ui.id &lt;br style=&quot;font-size: 1px&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(84 , 179 , 62) ; font-size: 1px&quot;&gt;WHERE cc.clue_id = #{clueId}&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-70" width="550" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-146" value="&lt;pre style=&quot;background-color: #131314 ; color: #ebebeb ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff&quot;&gt;ChanceBindStatusEnum&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_BIND(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未被绑定&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;DIFFERENT_IDENTITY(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;预留证件号与实名证件号不一致&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ALREADY_BIND_SELF(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;机会单已被自己绑定过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ALREADY_BIND_OTHERS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;机会单已被他人绑定过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;BIND_FAILED(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;绑定失败&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;请联系顾问&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;BIND_SUCCESS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;认证通过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;绑定机会单成功&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;BIND_FAILED_ERROR_VERIFICATION_CODE(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;绑定失败&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;验证码错误&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_AUTH(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未实名&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_OPEN_ACCOUNT(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未开户&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ALREADY_BIND_OWNER(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;已绑定主借人&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="70" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-147" value="&lt;pre style=&quot;background-color: #131314 ; color: #ebebeb ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff&quot;&gt;ClientStatusEnum&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOTHING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;无&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_MOBILE_VALIDATE(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;机会单电话未验证&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_AUTH(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未实名&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;NOT_OPEN_ACCOUNT(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;未开户&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;AUTH_PENDING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;待授权&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;AUDITING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;审核中&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;PRE_AUDIT_PASS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;预审批通过&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ADVISOR_PROCESS(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;金融顾问处理中&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;ORDER_TERMINATION(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;订单终止&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;SIGN_PENDING(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;待签约&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;SIGNED(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;已签约&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;SUBSEQUENT(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;金融单后续流程&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;AUTH_OVERDUE(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;授权过期，待重新授权&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;PAY(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;去支付&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;REFUNDED(&quot;&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-family: &amp;#34;宋体&amp;#34;&quot;&gt;已退款&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00&quot;&gt;&quot;)&lt;/span&gt;&lt;span style=&quot;color: #ffffff ; background-color: #804a00 ; font-weight: bold&quot;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="300" width="350" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-148" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="45" y="490" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-149" value="理房通实名" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="500" as="sourcePoint" />
+            <mxPoint x="180" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-150" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="559" as="targetPoint" />
+            <mxPoint x="755.5" y="559" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="410" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-151" value="实名成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9an_gNBY0MOmyQ4hXC5S-150">
+          <mxGeometry x="0.0751" y="5" relative="1" as="geometry">
+            <mxPoint x="14.5" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-152" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-99" target="9an_gNBY0MOmyQ4hXC5S-108">
+          <mxGeometry x="-0.3105" y="10" relative="1" as="geometry">
+            <mxPoint x="285" y="600" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-153" value="&lt;span style=&quot;text-align: left&quot;&gt;绑定状态(ChanceBindEnum)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="896" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-154" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;/chance/bind/101+token:{BKJK,u1}&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="580" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-155" value="1.判断机会绑定状态(ChanceBindEnum)&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="385" y="630" />
+              <mxPoint x="385" y="650" />
+            </Array>
+            <mxPoint x="365" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-156" value="&lt;pre&gt;/chance/bindCustomer&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0.6;exitY=0.636;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-116">
+          <mxGeometry x="-0.0747" y="-18" relative="1" as="geometry">
+            <mxPoint x="361" y="721.96" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-157" value="&lt;pre&gt;/nuus/user + token&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=0.53;exitY=0.746;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="9an_gNBY0MOmyQ4hXC5S-127">
+          <mxGeometry x="0.2436" y="1" relative="1" as="geometry">
+            <mxPoint x="363" y="672.04" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-158" value="用户信息(BKJK,u1,un1)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359" y="699" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-159" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367" y="876" as="targetPoint" />
+            <mxPoint x="590" y="876" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-160" value="1.checkChanceNotBound校验绑定状态&lt;br&gt;2.&amp;nbsp;bindChanceCustomer 绑定用户&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#00cc00&quot;&gt;2.1&amp;nbsp;saveOrUpdateUserInfoForCustomeri记录用户信息(ui1,BKJK,u1,un1)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;2.2&amp;nbsp;updateClue 用户信息(name,mobile,user_info_id)反写到线索&lt;br&gt;2.3&amp;nbsp;实名后将此unionId下的其他服务类机会单提交实名待办&lt;br&gt;3.createUserAuthorizationTodo 创建授权待办&lt;br&gt;4.createUserAuthorizationTodoForAllChance&amp;nbsp;创建名下其他机会单的客户授权待办&lt;br&gt;5.supplyAttentionAndViewData&amp;nbsp;更新 关注和查看 记录表 数据&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0294" relative="1" as="geometry">
+            <mxPoint x="580" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="580" y="740" />
+              <mxPoint x="625" y="740" />
+              <mxPoint x="625" y="854" />
+            </Array>
+            <mxPoint x="580" y="854" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-161" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.51;exitY=0.407;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-99" target="9an_gNBY0MOmyQ4hXC5S-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="980" as="sourcePoint" />
+            <mxPoint x="90" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-162" value="提交授权预审批" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-118" target="9an_gNBY0MOmyQ4hXC5S-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="990" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-163" value="&lt;pre&gt;/confirm/{chanceId}&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-99" target="9an_gNBY0MOmyQ4hXC5S-109">
+          <mxGeometry x="-0.0826" y="-10" relative="1" as="geometry">
+            <mxPoint x="285" y="1000" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-164" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="9an_gNBY0MOmyQ4hXC5S-109" target="9an_gNBY0MOmyQ4hXC5S-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1038" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9an_gNBY0MOmyQ4hXC5S-165" value="1.校验线索状态必须为待授权&lt;br&gt;2.&amp;nbsp;checkConfirm 校验是否可提交&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#00cc00&quot;&gt;2.1&amp;nbsp;saveOrUpdateUserInfoForCustomeri记录用户信息(ui1,BKJK,u1,un1)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;2.2&amp;nbsp;updateClue 用户信息(name,mobile,user_info_id)反写到线索&lt;br&gt;2.3&amp;nbsp;实名后将此unionId下的其他服务类机会单提交实名待办&lt;br&gt;3.createUserAuthorizationTodo 创建授权待办&lt;br&gt;4.createUserAuthorizationTodoForAllChance&amp;nbsp;创建名下其他机会单的客户授权待办&lt;br&gt;5.supplyAttentionAndViewData&amp;nbsp;更新 关注和查看 记录表 数据&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: rgb(19 , 19 , 20) ; color: rgb(235 , 235 , 235) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 11.3pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.3487" relative="1" as="geometry">
+            <mxPoint x="590" y="1010" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="578" y="1010" />
+              <mxPoint x="620" y="1010" />
+              <mxPoint x="620" y="1124" />
+            </Array>
+            <mxPoint x="575" y="1124" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
